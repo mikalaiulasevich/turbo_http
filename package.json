@@ -1,0 +1,15 @@
+{
+  "name": "turbo_http",
+  "version": "0.3.3",
+  "description": "Blazing fast low level http server",
+  "main": "index.js",
+  "dependencies": {
+    "http-parser-js": "^0.5.3",
+    "turbo_net": "https://github.com/mikalaiulasevich/turbo_net"
+  },
+  "scripts": {
+    "pretest": "npm run lint"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT"
+}
